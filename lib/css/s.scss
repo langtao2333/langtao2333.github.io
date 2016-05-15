@@ -32,4 +32,32 @@ body {
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center;
+    position: relative;
+}
+.s1{
+    background: #f4c553;
+}
+.s2{
+    background: #f1eec3;
+}
+.s3{
+    background: #000;
+}
+.s4{
+    background: #fff;
+}
+.arrow{
+    animation: arrow 1.5s ease-in -.1s infinite;
+}
+@keyframes arrow {
+    to{
+        bottom: 3rem;
+        top: auto;
+        opacity: .4;
+    }
+    from{
+        bottom: 1rem;
+        top: auto;
+        opacity: .8;
+    }
 }
