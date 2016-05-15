@@ -19,8 +19,6 @@
         <div class="swiper-slide">Slide 6</div>
         <div class="swiper-slide">Slide 7</div>
     </div>
-    <!-- Add Pagination -->
-    <div class="swiper-pagination"></div>
 </div>
 
 
@@ -28,13 +26,11 @@
 <script src="lib/swiper-3.3.1.jquery.min.js"></script>
 <script>
     var swiper = new Swiper('.swiper-container', {
-        pagination: '.swiper-pagination',
-        paginationClickable: false,
         direction: 'vertical'
     });
 </script>
 <script>
-    var $width = $(window).width(), $height = $(height).height(), $rem = $width / 320 * 10;
+    var $width = $(window).width(), $height = $(window).height(), $rem = $width / 320 * 10;
     $("html").css({
         "font-size" : $rem + "px"
     })
